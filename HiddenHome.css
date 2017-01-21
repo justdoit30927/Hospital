@@ -1,0 +1,45 @@
+.table{
+    font-family:'Microsoft YaHei',sans-serif;
+	border-style:solid;
+	border-width:10px;
+    width:700px;
+}
+
+.title{
+    font-family:'Microsoft YaHei',sans-serif;
+    margin-left:200px; 
+}
+
+
+#DIV{
+    font-family:'Microsoft YaHei',sans-serif;
+	margin-left:20%;
+    margin-right:20%;
+}
+
+#center{
+    font-family:'Microsoft YaHei',sans-serif;
+	margin-top:3%;
+	margin-left:20%;
+}
+#form1{
+    font-family:'Microsoft YaHei',sans-serif;
+	margin:0px;
+}
+p{
+    font-family:'Microsoft YaHei',sans-serif;
+	margin:5px;
+}
+
+
+
+
+#function{
+    font-family:'Microsoft YaHei',sans-serif;
+    margin:15px;
+}
+
+.mybtn{
+    font-family:'Microsoft YaHei',sans-serif;
+    margin:3px;
+}
