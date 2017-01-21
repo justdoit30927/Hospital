@@ -1,0 +1,220 @@
+body{
+	margin:0px;
+	padding:0px;
+	overflow:auto;
+}
+/* top bar item */
+#pagename a{
+	color: #000000;
+	text-decoration: none;
+}
+/* top bar item */
+#pagename{
+	color: #000000;
+	float: left;
+	font-family: "Microsoft YaHei", sans-serif;
+	font-size: 36px;
+	margin-left: 150px;
+	margin-top: 10px;
+}
+/* top bar item */
+#topbar{
+	background-color: #EAEFFA;
+	box-shadow: 3px 3px 12px #808080;
+	float: left;
+	min-height: 80px;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+/* top bar item */
+#logo{
+	float: left;
+	height: auto;
+	padding-top: 10px;
+	padding-left: 10px;
+	width: 350px;
+}
+/* top bar item */
+#list{
+	float: left;
+	margin-top: 10px;
+	padding-top: 10px;
+	width: 70%;
+}
+/* top bar item */
+#list ul li{
+	margin-right: 15px;
+	width: auto;
+}
+/* top bar item */
+#list ul :hover{
+	background-color: #ACC0EC;
+}
+/* top bar item */
+#list ul, #list li{
+	float: left;
+	list-style: none;
+}
+/* top bar item */
+#list ul li a{
+	color: #000000;
+	font-family: "Microsoft YaHei", sans-serif;
+	font-size: 24px;
+	text-decoration: none;
+}
+/* top bar item */
+#guide{
+	float: right;
+	margin-top: 5px;
+	width: auto;
+}
+/* top bar item */
+#guide a{
+	align-content: right;
+	color: #000000;
+	float: none;
+	font-family: "Microsoft YaHei", sans-serif ;
+	font-size: 18px;
+	text-decoration: none;
+}
+/* content */
+#content{
+	padding-bottom: 10px;
+	padding-top: 80px;
+	margin-left: 10%;
+	min-height: 790px;
+	width: 90%;
+	z-index: 0;
+	overflow: auto;
+}
+
+#footer{
+	background:#EAEFFA;
+	box-shadow: 0px -5px 5px #808080;
+	font-family: "Microsoft YaHei", sans-serif ;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	min-height:80px;
+	width:100%;
+}
+
+/* optional contents */
+
+/* left bar */
+#leftBar{
+	float: left;
+	background-color: #EAEFFA;
+	min-height: 700px;
+	width: 250px;
+	box-shadow: 5px 5px 5px #808080;
+	overflow: auto;
+}
+
+#list2{
+	font-family: "Microsoft YaHei", sans-serif ;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#list2 a{
+	text-decoration: none;
+    cursor: default;
+}
+
+#listtitle{
+	background-color: #333399;
+	color: #FFFFFF;
+	font-size: 32px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.listitem{
+	background-color: #EAEFFA;
+	font-size: 24px;
+	margin-top: 50px;
+	border: 15px;
+}
+
+#newsblock{
+	background-color: #EAEFFA;
+	box-shadow: 0px 0px 10px #808080;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	min-height: 690px;
+	overflow: auto;
+	width: 900px;
+	font-family: "Microsoft YaHei", sans-serif;
+}
+
+#newstitle{
+	background-color: #333399;
+	border-radius: 3px;
+	box-shadow: 0px 0px 3px #808080;
+	color: #FFFFFF;
+	font-family: "Microsoft YaHei", sans-serif ;
+	font-size: 28px;
+	text-align: center;
+	width: 100%;
+	min-height: 50px;
+}
+
+#newstable{
+	margin-top: 5px;
+	overflow: auto;
+}
+
+#pagination{
+	text-align: center;
+}
+
+.clickable-row{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+/* 2016 08 30 */
+.theLatestContent{
+	display:none;
+	font-size:30px;
+	text-indent:15px;
+	height:120px;
+
+	
+}
+.hiddenContent{
+	height:80px;
+	
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.morePositionSet{
+	font-size:18px;
+	float:right;
+	height:30px;
+	margin:0px;
+	overflow:hidden;
+	padding:0px;
+	text-align:center;
+	text-indent:0px;
+	width:120px;
+}
+
+.more{	
+	/*background-color: #f9f9f9;*/
+    background-color:transparent;
+	font-family: "Microsoft YaHei", sans-serif ;
+	width:100%;
+	height:100%;
+	padding:0px;
+	color: #000000;
+	border:0px;
+}
+.more:hover{
+	background:#009933;
+	color:#FFFFFF;
+}
