@@ -1,4 +1,8 @@
-# Hospital
-diabetes website123
+# diabetes website
+首頁
 
-hello this is a test
+
+登入
+![image](https://github.com/justdoit30927/Hospital/raw/master/upload/02.png)
+
+新增文章
